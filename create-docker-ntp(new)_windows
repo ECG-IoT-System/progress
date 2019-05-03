@@ -1,0 +1,44 @@
+https://cutejaneii.wordpress.com/2017/06/19/docker-8-%E5%8D%87%E7%B4%9Adocker/
+
+
+https://askubuntu.com/questions/493460/how-to-install-add-apt-repository-using-the-terminal
+
+
+
+ssh -i ntp_rsa mbwclnctu@35.221.137.129
+
+
+
+https://joshhu.gitbooks.io/docker_theory_install/content/DockerBible/ubuntuvm.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pi@raspberrypi:~ $ ssh -i /home/pi/ntp_rsa mbwclnctu@35.221.137.129
+ssh: connect to host 35.221.137.129 port 22: Connection timed out
+
+
+
+
+pi@raspberrypi:~ $ ssh -i ntp_rsa mbwclnctu@35.221.137.129
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for 'ntp_rsa' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "ntp_rsa": bad permissions
+Permission denied (publickey).
+
+
+
